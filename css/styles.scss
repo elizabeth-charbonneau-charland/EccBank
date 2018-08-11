@@ -1,1 +1,73 @@
+@import "../reset.css";
+@import "variables";
+@import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
 @import "../node_modules/bulma/bulma";
+@import "header";
+
+body {
+  background-color: #E9E9E9 ;
+}
+
+.inscription {
+  margin-bottom: 2rem;
+  color: $white;
+  border-radius: 6px;
+  padding: 2rem;
+  width: 50%;
+  margin-top: 3rem;
+  background-color: #23d2e8;
+  text-align: center;
+  h1 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .button {
+    margin-top: 20px;
+  }
+}
+
+.description {
+  text-align: center;
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.services {
+  i {
+    font-size: 4rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.blog {
+  margin: 10px;
+  background-color: white;
+}
+
+
+/*
+ === ACCÈS CLIENT ===
+*/
+
+.titre-acces {
+
+h1{
+
+}}
+
+.acces {
+width: 40%;
+
+
+  }
+
+

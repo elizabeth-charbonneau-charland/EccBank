@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/elizabeth-charbonneau-charland/EccBank#readme",
   "dependencies": {
-    "bulma": "^0.7.1"
+    "bulma": "^0.7.1",
+    "bulma-carousel": "^3.0.0"
   }
 }
