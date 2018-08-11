@@ -5,24 +5,31 @@
 @import "header";
 
 body {
-  background-color: #E9E9E9 ;
+  background-color: #f3f4f1;
+  margin: 0;
+}
+
+.slider img {
+  width: 100vw;
+  height: 60vh;
 }
 
 .inscription {
+  background-color: white;
   margin-bottom: 2rem;
-  color: $white;
+  color: #4a523f;
   border-radius: 6px;
   padding: 2rem;
-  width: 50%;
+  width: 60%;
   margin-top: 3rem;
-  background-color: #23d2e8;
   text-align: center;
   h1 {
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   p {
-    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-size: 1rem;
   }
   .button {
     margin-top: 20px;
@@ -30,20 +37,27 @@ body {
 }
 
 .description {
+  margin-top: 5%;
   text-align: center;
   h1 {
-    font-size: 2.5rem;
+    font-weight: bolder;
+    font-size: 2rem;
   }
   p {
-    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-size: 1rem;
   }
 }
 
 .services {
+  margin-top: 3%;
+  text-align: center;
   i {
+    padding: 20px;
     font-size: 4rem;
   }
   h1 {
+
     font-size: 1.5rem;
   }
 }
@@ -53,21 +67,20 @@ body {
   background-color: white;
 }
 
-
 /*
  === ACCÈS CLIENT ===
 */
 
 .titre-acces {
 
-h1{
-
-}}
-
-.acces {
-width: 40%;
-
+  h1 {
 
   }
+}
+
+.acces {
+  width: 40%;
+
+}
 
 
