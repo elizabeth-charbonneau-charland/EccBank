@@ -1,43 +1,43 @@
-@import "../reset.css";
+@import "reset.css";
 @import "variables";
 @import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
 @import "../node_modules/bulma/bulma";
 @import "header";
+@import "footer";
+@import "properties";
+
 
 body {
-  background-color: #f3f4f1;
+
   margin: 0;
+}
+
+.background-gris{
+  background-color: #f6f6f6;
 }
 
 .slider img {
   width: 100vw;
-  height: 60vh;
+  height: 50vh;
 }
 
 .inscription {
+  @extend .description;
+  border: 2px solid;
+  border-color: #23d2e8;
   background-color: white;
   margin-bottom: 2rem;
   color: #4a523f;
   border-radius: 6px;
-  padding: 2rem;
-  width: 60%;
-  margin-top: 3rem;
-  text-align: center;
-  h1 {
-    font-weight: bolder;
-    font-size: 2rem;
-  }
-  p {
-    line-height: 2.5rem;
-    font-size: 1rem;
-  }
+  padding: 1rem;
+
   .button {
     margin-top: 20px;
   }
 }
 
 .description {
-  margin-top: 5%;
+  margin-top: 3rem;
   text-align: center;
   h1 {
     font-weight: bolder;
@@ -53,6 +53,7 @@ body {
   margin-top: 3%;
   text-align: center;
   i {
+    color: #23d2e8;
     padding: 20px;
     font-size: 4rem;
   }
@@ -62,25 +63,15 @@ body {
   }
 }
 
-.blog {
-  margin: 10px;
-  background-color: white;
-}
 
 /*
  === ACCÈS CLIENT ===
 */
 
-.titre-acces {
-
-  h1 {
-
-  }
-}
-
-.acces {
-  width: 40%;
+.titre-acces  {
+font-size: 2rem;
 
 }
+
 
 
