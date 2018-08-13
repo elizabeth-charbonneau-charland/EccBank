@@ -20,10 +20,10 @@
                 <a href=""><i class="fas fa-search"></i></a>
             </div>
             <div class="navbar-item">
-                <a class="button">Devenir Client</a>
+                <a class="button">DEVENIR CLIENT</a>
             </div>
             <div class="navbar-item">
-                <a class="button">Accès Clients</a>
+                <a class="button">ACCÈS CLIENT</a>
             </div>
         </div>
     </div>
