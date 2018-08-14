@@ -7,13 +7,12 @@
 @import "properties";
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-
 body {
 
   margin: 0;
 }
 
-.background-gray{
+.background-gray {
   background-color: #f6f6f6;
 }
 
@@ -24,20 +23,20 @@ body {
 
 .inscription {
   @extend .description;
-  border: 2px solid;
-  border-color: #03065c;
-  background-color: white;
+  background-color: #03065c;
   margin-bottom: 2rem;
-  color: #4a523f;
+  color: white;
   border-radius: 6px;
   padding: 1rem;
 
   .button {
     margin-top: 20px;
+    font-family: "Quicksand";
   }
 }
 
 .description {
+
   margin-top: 3rem;
   text-align: center;
   h1 {
@@ -45,7 +44,6 @@ body {
     font-size: 2rem;
   }
   p {
-    font-weight: bold;
     font-family: "Quicksand";
     line-height: 2.5rem;
     font-size: 1rem;
@@ -65,15 +63,45 @@ body {
 
     font-size: 1.5rem;
   }
-  p{
+  p {
     font-weight: bold;
+    padding-bottom: 5rem;
   }
 }
-
 
 /*
  === ACCÈS CLIENT ===
 */
+
+.login {
+  text-align: left;
+  h1 {
+    font-size: 2rem;
+    text-align: left;
+    font-family: "Lora";
+  }
+  h2 {
+    font-family: 1.8rem;
+    text-align: left;
+  }
+  label {
+    font-family: "Quicksand";
+  }
+}
+
+/*
+ === ACCÈS CLIENT ===
+*/
+
+.creation {
+  width: 90%;
+  height: 90%;
+  text-align: left;
+  border-radius: 5%;
+  color: white;
+  background-color: #03065c;
+
+}
 
 
 

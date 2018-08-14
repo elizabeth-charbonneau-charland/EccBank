@@ -14,9 +14,9 @@
 <?php include 'header.php'; ?>
 
 
-<div class="container is-flex mt-3">
+<div class="container is-flex mt-3 login">
     <form class="container " method="post" action="login.php">
-        <h1 class="titre-acces">Accès à votre compte personnel</h1>
+        <h1>Accès à votre compte personnel</h1>
         <div class="field w-50 ">
             <label for="username" class="label mt-2">Nom d’utilisateur </label>
             <div class="control mg-2">
@@ -27,21 +27,19 @@
             <label for="password" class="label">Mot de passe</label>
             <div class="control">
                 <input id="password" class="input" type="password">
-                <label class="checkbox">
+                <label class="checkbox mt-1">
                     <input type="checkbox">
                     Mémoriser mes renseignements
                 </label>
             </div>
-            <span class="icon is-small is-left">
-      <button><i class="fas fa-lock">Ouvrir une session</i></button>
-    </span>
+            <a class="button mt-1">Ouvrir une session<i class="fas fa-lock"></i></a>
         </div>
     </form>
-    <div class="container w-80">
-        <h1>Devenez Client aujourd’hui ! </h1>
-        <p>Profitez de nos avantages Une équipe professionelle qui vous aide à <br> prendre des décisions avisées à
-            propos de votre argent.</p>
-        <a class="button">Devenir Client</a>
+
+    <div class="container w-80 creation">
+        <h1>Vous n'avez pas de compte ici ?</h1>
+        <span>L’inscription est rapide et facile</span> <br>
+        <a class="button">Créer votre compte </a>
     </div>
 </div>
 

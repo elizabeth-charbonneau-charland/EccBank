@@ -12,11 +12,14 @@
 </head>
 <body>
 <?php include 'header.php';?>
+
 <div class="slider ">
     <div><img src="images/slider.png" alt=""></div>
     <div><img src="images/slider3.png" alt=""></div>
     <div><img src="images/slider2.png" alt=""></div>
 </div>
+
+
 
 <div class="container inscription w-60 ">
         <h1>Devenez Client aujourd’hui ! </h1>
@@ -34,13 +37,13 @@
     <div class="column ">
         <h2>Services bancaires efficaces</h2>
         <i class="fas fa-laptop"></i>
-        <p>Vous pouvez gérer vos affaires bancaires comme bon vous semble, que ce soit en ligne, en succursale et  au téléphone </p>
+        <p>Vous pouvez gérer vos affaires bancaires comme bon vous semble,<br> que ce soit en ligne, en succursale et  au téléphone </p>
 
     </div>
     <div class="column ">
         <h2>Accès à plus de 3 500 guichets</h2>
         <i class="fas fa-money-check"></i>
-        <p>Payer pour accéder à votre argent est injuste. Vous pouvez retirer votre argent sans frais partout au pays</p>
+        <p>Payer pour accéder à votre argent est injuste. Vous pouvez retirer <br>votre argent sans frais partout au pays avec nos guichets</p>
 
     </div>
 </div>

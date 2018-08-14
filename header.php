@@ -23,7 +23,7 @@
                 <a class="button">DEVENIR CLIENT</a>
             </div>
             <div class="navbar-item">
-                <a class="button">ACCÈS CLIENT</a>
+                <a href="accesClient.php" class="button">ACCÈS CLIENT</a>
             </div>
         </div>
     </div>

@@ -1,9 +1,12 @@
-<footer class="footer mb-3">
-    <div class="content has-text-centered">
+<footer class="footer has-text-centered">
+    <div class="content ">
         <p>
-            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            SUIVEZ-NOUS!
         </p>
+    </div>
+    <div class="" >
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-google-plus-square"></i>
     </div>
 </footer>
