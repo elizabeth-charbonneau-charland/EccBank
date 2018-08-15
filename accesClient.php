@@ -17,13 +17,13 @@
 <div class="container is-flex mt-3 login">
     <form class="container " method="post" action="login.php">
         <h1>Accès à votre compte personnel</h1>
-        <div class="field w-50 ">
+        <div class="field w-70 ">
             <label for="username" class="label mt-2">Nom d’utilisateur </label>
             <div class="control mg-2">
                 <input id="username" class="input" type="text">
             </div>
         </div>
-        <div class="field w-50">
+        <div class="field w-70">
             <label for="password" class="label">Mot de passe</label>
             <div class="control">
                 <input id="password" class="input" type="password">
@@ -36,10 +36,8 @@
         </div>
     </form>
 
-    <div class="container w-80 creation">
-        <h1>Vous n'avez pas de compte ici ?</h1>
-        <span>L’inscription est rapide et facile</span> <br>
-        <a class="button">Créer votre compte </a>
+    <div class="container  creation">
+
     </div>
 </div>
 

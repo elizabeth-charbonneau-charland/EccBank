@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/styles.css">
@@ -13,10 +14,10 @@
 <body>
 <?php include 'header.php';?>
 
-<div class="slider ">
-    <div><img src="images/slider.png" alt=""></div>
-    <div><img src="images/slider3.png" alt=""></div>
-    <div><img src="images/slider2.png" alt=""></div>
+<div class="slider">
+    <div><i class="fas fa-money-check-alt"></i><h2>Recevez jusqu’à 100 $  en ouvrant votre premier compte !</h2></div>
+    <div><i class="fas fa-piggy-bank"></i><h2>Épargner ne devrait pas être un soucis !</h2></div>
+    <div><i class="fas fa-home"></i><h2>Vous achetez votre première propriété?</h2></div>
 </div>
 
 

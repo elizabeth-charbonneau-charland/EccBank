@@ -20,7 +20,7 @@
                 <a href=""><i class="fas fa-search"></i></a>
             </div>
             <div class="navbar-item">
-                <a class="button">DEVENIR CLIENT</a>
+                <a href="devenirClient.php" class="button">DEVENIR CLIENT</a>
             </div>
             <div class="navbar-item">
                 <a href="accesClient.php" class="button">ACCÈS CLIENT</a>
