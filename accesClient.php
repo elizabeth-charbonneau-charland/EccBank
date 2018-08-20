@@ -36,7 +36,8 @@
         </div>
     </form>
 
-    <div class="container  creation">
+    <div class="container  presentation-logo">
+        <img src="images/logo.png" alt="">
 
     </div>
 </div>

@@ -16,8 +16,8 @@
 
 <div class="slider">
     <div><i class="fas fa-money-check-alt"></i><h2>Recevez jusqu’à 100 $  en ouvrant votre premier compte !</h2></div>
-    <div><i class="fas fa-piggy-bank"></i><h2>Épargner ne devrait pas être un soucis !</h2></div>
-    <div><i class="fas fa-home"></i><h2>Vous achetez votre première propriété?</h2></div>
+    <div><i class="fas fa-piggy-bank"></i><h2>Épargner est simple et ne devrait pas être une source se stress!</h2></div>
+    <div><i class="fas fa-home"></i><h2>Vous achetez votre première propriété? Faite nous confiance !</h2></div>
 </div>
 
 
