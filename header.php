@@ -17,7 +17,7 @@
         </div>
         <div class="navbar-end">
             <div class="navbar-item">
-                <a href=""><i class="fas fa-search"></i></a>
+                <input class="search" type="text" name="search">
             </div>
             <div class="navbar-item">
                 <a href="devenirClient.php" class="button">DEVENIR CLIENT</a>

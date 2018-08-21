@@ -25,29 +25,29 @@ body {
 }
 
 .slider {
-
-  i{
-    margin-top: 5%;
-    margin-left: 22%;
+  font-family: "Quicksand";
+  i {
+    padding: 6%;
+    margin-left: 35%;
     font-size: 5rem;
   }
-  h2{
-margin-top: 5%;
-margin-left: 8%;
+  h2 {
+    text-align: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
 .slick-arrow {
-  transform:scale(2);
+  transform: scale(2);
   z-index: 5;
 }
 
 .slick-prev {
   left: 20%;
 }
-.slick-next{
+
+.slick-next {
   right: 20%;
 }
 
@@ -123,7 +123,7 @@ margin-left: 8%;
   color: white;
   background-color: #03065c;
 
-  img{
+  img {
     margin-top: 10%;
     display: block;
     margin-left: auto;
@@ -142,7 +142,7 @@ margin-left: 8%;
   margin-left: 30%;
   margin-right: 30%;
 
-  h1{
+  h1 {
     font-size: 2rem;
   }
 
