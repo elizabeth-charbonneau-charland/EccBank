@@ -15,6 +15,11 @@
 <body>
 <?php include 'header.php'; ?>
 
+<?php
+include "services/UserService.php";
+$userService = new UserService();
+$userService->test();
+?>
 <div class="slider">
 
     <div>
